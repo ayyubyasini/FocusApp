@@ -11,6 +11,7 @@ const STATUSES = {
   CANCELLED: 2,
 };
 export default function App() {
+  console.log('yolo')
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
